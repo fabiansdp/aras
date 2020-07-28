@@ -3,3 +3,82 @@ html {
     font-size: 16px;
 }
 
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+
+header .logo {
+    width: 3.5rem;
+}
+
+header .icon {
+    width: 5rem;
+    vertical-align: bottom;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 3rem;
+}
+
+nav li .button {
+    color: red;
+    border: solid 2px red;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+}
+
+.main-content {
+    position: relative;
+    top: 74px;
+}
+
+#intro-section {
+    background: url("../img/secondary-background.png") no-repeat;
+    background-size: cover;
+    height: 35rem;
+}
+
+#intro-section .girl {
+    position: absolute;
+    max-height: 25rem;
+    float: right;
+    top: 8.2rem;
+    right: 10rem;
+}
+
+.search-box {
+    width: 65%;
+    position: absolute;
+    right: 15rem;
+    bottom: -1.75rem;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    padding: 1.2rem;
+    padding-left: 5rem;
+    box-sizing: border-box;
+    border: solid 2px white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 7px grey;
+}
