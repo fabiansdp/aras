@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="resources/css/reset.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="resources/scripts/tableFilter.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARAS.ID</title>
@@ -41,10 +43,92 @@
             </div>
             <img class="girl" src="resources/img/Character-vector.png" alt="girl">
             <div class="search-box">
-                <input type="text" placeholder="Cari Rumah Sakit" name="search">
+                <input type="text" placeholder="Cari Rumah Sakit" id="inputRS" onkeyup="cariRS()">
             </div>
         </div>
 
+    </div>
+    <div class="datars-content">
+    <h1 class="title_ruangan">Ruangan Tersedia</h1>
+      <div class="table-wrapper">
+        <table id="headerDataRS">
+            <tr class="table_head">
+                <td class="namaRS">Nama Rumah Sakit</td>
+                <td class="kelasVIP">VIP</td>
+                <td class="kelas1">I</td>
+                <td class="kelas2">II</td>
+                <td class="kelas3">III</td>
+                <td class="covid">Khusus COVID</td>  
+            </tr>
+        </table>
+        <hr/>
+        <table id="dataRS">
+            <tr class="table_body">
+                <td class="namaRS">Hermina Rancamanik</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+            <tr class="table_body">
+                <td class="namaRS">Hermina Pasteur</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+            <tr class="table_body">
+                <td class="namaRS">RS Borromeus</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+            <tr class="table_body">
+                <td class="namaRS">RS Bungsu</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+            <tr class="table_body">
+                <td class="namaRS">RS Sariningsih</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+            <tr class="table_body">
+                <td class="namaRS">RS Rajawali</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+            <tr class="table_body">
+                <td class="namaRS">RS Kopo</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+            <tr class="table_body">
+                <td class="namaRS">RS Advent</td>
+                <td class="kelasVIP">5</td>
+                <td class="kelas1">3</td>
+                <td class="kelas2">2</td>
+                <td class="kelas3">1</td>
+                <td class="covid">4</td>
+            </tr>
+        </table>
+    </div>
     </div>
 </body>
 </html>
