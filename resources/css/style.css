@@ -24,15 +24,15 @@ header {
 header .content {
     display: flex;
     align-items: center;
-    padding: 0.5rem 1.5rem;
+    padding: 8px 24px;
 }
 
 header .logo {
-    width: 3.5rem;
+    width: 56px;
 }
 
 header .icon {
-    width: 5rem;
+    width: 80px;
     vertical-align: bottom;
 }
 
@@ -45,14 +45,14 @@ header nav ul {
 }
 
 nav li {
-    padding-left: 3rem;
+    padding-left: 48px;
 }
 
 nav li .button {
     color: #FF0000;
     border: solid 2px #FF0000;
     border-radius: 25px;
-    padding: 0.5rem 2rem;
+    padding: 8px 32px;
     transition: 0.5s;
 }
 
@@ -70,40 +70,40 @@ nav li .button:hover {
 #intro-section {
     background: url("../img/secondary-background.png") no-repeat;
     background-size: cover;
-    height: 35rem;
+    height: 560px;
 }
 
 .girl {
     position: absolute;
-    max-height: 25rem;
+    max-height: 400px;
     float: right;
-    top: 8.2rem;
-    right: 10rem;
+    top: 131.2px;
+    right: 160px;
 }
 
 .speech-bubble img {
     position: absolute;
     float: right;
     width: 42%;
-    top: 4rem;
-    right: 28rem;
+    top: 64px;
+    right: 448px;
 }
 
 /* Search Box */
 .search-box {
     width: 65%;
     position: absolute;
-    right: 15rem;
-    top: 33rem;
+    right: 240px;
+    top: 528px;
 }
 
 .search-box input[type="text"] {
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     outline: none;
     text-align: left;
-    padding: 1.2rem;
-    padding-left: 5rem;
+    padding: 19.2px;
+    padding-left: 80px;
     box-sizing: border-box;
     border: solid 2px white;
     border-radius: 25px;
@@ -116,8 +116,8 @@ nav li .button:hover {
     background-size: cover;
     background-position: bottom center;
     position: relative;
-    top: 5rem;
-    padding: 2rem 3rem 0 3rem;
+    top: 80px;
+    padding: 32px 48px 0 48px;
 }
 
 #dataRS-content h1{
@@ -134,14 +134,14 @@ nav li .button:hover {
 }
 
 h3 {
-    padding: 0.75rem 0 2rem 0;
+    padding: 12px 0 32px 0;
 }
 
 .table-wrapper{
-    padding: 2rem;
+    padding: 32px;
     background-color:white;
     border-style: none;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 2px 3px 19px 1px rgba(0,0,0,0.2);
 }
 
@@ -198,6 +198,7 @@ td {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
+    border-radius: 30px;
 }
   
   /* Add Animation */
@@ -215,7 +216,7 @@ td {
 .close {
     color: #000;
     float: right;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
 }
   
@@ -232,6 +233,10 @@ td {
     color: #000;
 }
 
+.address {
+    display: flex;
+}
+
 .modal-header h2 {
     font-size: 2rem;
     color: #CF1B1B;
@@ -241,8 +246,13 @@ td {
 
 .modal-header i {
     color: #CF1B1B;
-    padding-right: 5px;
-    font-size: 1.25rem;
+    padding-right: 10px;
+    font-size: 2rem;
+}
+
+.modal-header p {
+    line-height: 1.2rem;
+    font-weight: 500;
 }
   
 .modal-body {
@@ -293,3 +303,6 @@ td {
 .footer-content h3 {
     padding: 20px 0;
 }
+
+
+/*  */
