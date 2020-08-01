@@ -89,21 +89,6 @@ nav li .button:hover {
     right: 28rem;
 }
 
-.speech-bubble .text {
-    position: absolute;
-    float: right;
-    top: 6rem;
-    right: 40rem;
-    line-height: 1.6;
-    font-weight: 500;
-    font-size: 1.3rem;
-}
-
-.speech-bubble .text span {
-    color: #CF1B1B;
-    font-weight: bolder;
-}
-
 /* Search Box */
 .search-box {
     width: 65%;
@@ -127,20 +112,29 @@ nav li .button:hover {
 
 /* Table */
 #dataRS-content{
+    background: url("../img/dataset-background.png") no-repeat;
+    background-size: cover;
+    background-position: bottom center;
     position: relative;
     top: 5rem;
-    padding: 2rem 3rem 4rem 3rem;
+    padding: 2rem 3rem 0 3rem;
 }
 
-.title_ruangan{
+#dataRS-content h1{
     font-size: xx-large;
     color: #CF1B1B;
     font-weight: 900;
-    padding-bottom: .75rem;
+}
+
+#dataRS-content h2 {
+    margin-top: 100px;
+    font-size: 2rem;
+    color: #CF1B1B;
+    font-weight: 900;
 }
 
 h3 {
-    padding-bottom: 2rem;
+    padding: 0.75rem 0 2rem 0;
 }
 
 .table-wrapper{
@@ -193,7 +187,7 @@ td {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
   
-  /* Modal Content */
+/* Modal Content */
 .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -243,6 +237,12 @@ td {
     color: #CF1B1B;
     font-weight: 900;
     padding-bottom: 30px;
+}
+
+.modal-header i {
+    color: #CF1B1B;
+    padding-right: 5px;
+    font-size: 1.25rem;
 }
   
 .modal-body {
