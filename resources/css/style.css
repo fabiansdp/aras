@@ -10,6 +10,7 @@
 html {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 /* Header */
@@ -201,7 +202,7 @@ td {
     border-radius: 30px;
 }
   
-  /* Add Animation */
+/* Add Animation */
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
@@ -212,7 +213,7 @@ td {
     to {top:0; opacity:1}
 }
   
-  /* The Close Button */
+/* The Close Button */
 .close {
     color: #000;
     float: right;
@@ -304,5 +305,24 @@ td {
     padding: 20px 0;
 }
 
+#about {
+    background: url("../img/tertiary-background.png") no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+    top: 5rem;
+    padding: 4rem 3rem 0 3rem;
+}
 
-/*  */
+#about h1 {
+    font-size: xx-large;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+}
+
+#about p {
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem 4rem 4.25rem 4rem;
+}
