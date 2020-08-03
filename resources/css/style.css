@@ -49,17 +49,8 @@ nav li {
     padding-left: 48px;
 }
 
-nav li .button {
-    color: #FF0000;
-    border: solid 2px #FF0000;
-    border-radius: 25px;
-    padding: 8px 32px;
-    transition: 0.5s;
-}
-
-nav li .button:hover {
-    background-color: #FF0000;
-    color: #FFFFFF;
+nav li .icon {
+    display: none;
 }
 
 /* Banner */
@@ -87,7 +78,7 @@ nav li .button:hover {
     float: right;
     width: 42%;
     height: auto;
-    top: 64px;
+    top: 3%;
     right: 32%;
 }
 
@@ -311,8 +302,8 @@ td {
     background-size: cover;
     background-position: bottom center;
     position: relative;
-    padding: 4rem 3rem 0 3rem;
-    top: 5rem;
+    padding: 64px 48px 0 48px;
+    top: 80px;
 }
 
 #about h1 {
@@ -324,17 +315,15 @@ td {
 
 #about p {
     color: #fff;
-    text-align: center;
-    padding: 0.75rem 4rem 4.25rem 4rem;
+    text-align: justify;
+    padding: 50px;
+    line-height: 1.15;
 }
-    
-    /* line-height: 1.15;
-} */
 
 #covid19 {
     height: 200px;
     position: relative;
-    top: 5rem;
+    top: 80px;
 }
 
 #covid19 h1 {
@@ -383,16 +372,16 @@ td {
 }
 
 #info {
-    top: 5rem;
+    top: 80px;
     background: url("../img/quarternary-background.png") no-repeat;
     background-size: cover;
     background-position: bottom center;
     position: relative;
-    padding: 4rem 3rem 4rem 3rem;
+    padding: 64px 48px;
 }
 
 #info p {
-    padding: 2rem 12% 2rem 12%;
+    padding: 32px 12% 32px 12%;
     font-size: large;
     text-align: justify;
     line-height: 1.25;
@@ -402,6 +391,32 @@ td {
 @media (max-width: 769px) {
     .desktop {
         display: none;
+    }
+
+    .topnav li:not(:last-child) {
+        display: none;
+    }
+
+    .topnav li .icon {
+        font-size: 1.5rem;
+        text-align: center;
+        display: block;
+    }
+
+    .topnav .responsive ul {
+        position: relative;
+    }
+
+    .topnav .responsive li .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav .responsive li a{
+        float: none;
+        display: block;
+        text-align: left;
     }
 
     .speech-bubble img {
@@ -421,5 +436,15 @@ td {
 
     .namaRS {
         text-align: left;
+    }
+}
+
+@media (max-width: 600px) {
+    #intro-section {
+        height: 450px;
+    }
+
+    .search-box {
+        top: 425px;
     }
 }
