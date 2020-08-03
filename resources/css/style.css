@@ -79,22 +79,23 @@ nav li .button:hover {
     max-height: 400px;
     float: right;
     top: 131.2px;
-    right: 160px;
+    right: 10%;
 }
 
 .speech-bubble img {
     position: absolute;
     float: right;
     width: 42%;
+    height: auto;
     top: 64px;
-    right: 448px;
+    right: 32%;
 }
 
 /* Search Box */
 .search-box {
     width: 65%;
     position: absolute;
-    right: 240px;
+    right: 15%;
     top: 528px;
 }
 
@@ -325,4 +326,20 @@ td {
     color: #fff;
     text-align: center;
     padding: 0.75rem 4rem 4.25rem 4rem;
+}
+/* Media Queries */
+@media (max-width: 769px) {
+    .desktop {
+        display: none;
+    }
+
+    .speech-bubble img {
+        right: 0;
+        width: 100%;
+    }
+
+    .search-box {
+        width: 100%;
+        right: 0;
+    }
 }
