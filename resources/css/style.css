@@ -25,15 +25,15 @@ header {
 header .content {
     display: flex;
     align-items: center;
-    padding: 0.5rem 1.5rem;
+    padding: 8px 24px;
 }
 
 header .logo {
-    width: 3.5rem;
+    width: 56px;
 }
 
 header .icon {
-    width: 5rem;
+    width: 80px;
     vertical-align: bottom;
 }
 
@@ -46,20 +46,11 @@ header nav ul {
 }
 
 nav li {
-    padding-left: 3rem;
+    padding-left: 48px;
 }
 
-nav li .button {
-    color: #FF0000;
-    border: solid 2px #FF0000;
-    border-radius: 25px;
-    padding: 0.5rem 2rem;
-    transition: 0.5s;
-}
-
-nav li .button:hover {
-    background-color: #FF0000;
-    color: #FFFFFF;
+nav li .icon {
+    display: none;
 }
 
 /* Banner */
@@ -71,40 +62,41 @@ nav li .button:hover {
 #intro-section {
     background: url("../img/secondary-background.png") no-repeat;
     background-size: cover;
-    height: 35rem;
+    height: 560px;
 }
 
 .girl {
     position: absolute;
-    max-height: 25rem;
+    max-height: 400px;
     float: right;
-    top: 8.2rem;
-    right: 10rem;
+    top: 131.2px;
+    right: 10%;
 }
 
 .speech-bubble img {
     position: absolute;
     float: right;
     width: 42%;
-    top: 4rem;
-    right: 28rem;
+    height: auto;
+    top: 3%;
+    right: 32%;
 }
 
 /* Search Box */
 .search-box {
     width: 65%;
     position: absolute;
-    right: 15rem;
-    top: 33rem;
+    right: 15%;
+    top: 528px;
 }
 
 .search-box input[type="text"] {
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     outline: none;
     text-align: left;
-    padding: 1.2rem;
-    padding-left: 5rem;
+    padding: 19.2px;
+    padding-left: 80px;
     box-sizing: border-box;
     border: solid 2px white;
     border-radius: 25px;
@@ -117,8 +109,8 @@ nav li .button:hover {
     background-size: cover;
     background-position: bottom center;
     position: relative;
-    top: 5rem;
-    padding: 2rem 3rem 0 3rem;
+    top: 80px;
+    padding: 32px 48px 0 48px;
 }
 
 #dataRS-content h1{
@@ -135,14 +127,14 @@ nav li .button:hover {
 }
 
 h3 {
-    padding: 0.75rem 0 2rem 0;
+    padding: 12px 0 32px 0;
 }
 
 .table-wrapper{
-    padding: 2rem;
+    padding: 32px;
     background-color:white;
     border-style: none;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 2px 3px 19px 1px rgba(0,0,0,0.2);
 }
 
@@ -178,7 +170,7 @@ td {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 150px; /* Location of the box */
+    padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -199,6 +191,7 @@ td {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
+    border-radius: 30px;
 }
   
 /* Add Animation */
@@ -216,7 +209,7 @@ td {
 .close {
     color: #000;
     float: right;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
 }
   
@@ -233,6 +226,10 @@ td {
     color: #000;
 }
 
+.address {
+    display: flex;
+}
+
 .modal-header h2 {
     font-size: 2rem;
     color: #CF1B1B;
@@ -242,20 +239,27 @@ td {
 
 .modal-header i {
     color: #CF1B1B;
-    padding-right: 5px;
-    font-size: 1.25rem;
+    padding-right: 10px;
+    font-size: 2rem;
+}
+
+.modal-header p {
+    line-height: 1.2rem;
+    font-weight: 500;
 }
   
 .modal-body {
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
 .content-box {
     color: #FFFFFF;
-    flex-basis: 40%;
-    margin: 10px;
+    flex-basis: 30%;
+    margin: 0 10px 10px 0;
     text-align: center;
     background-color: #CF1B1B;
     border-radius: 25px;
@@ -280,9 +284,9 @@ td {
 .footer-content {
     display: inline-block;
     background-color: #CF1B1B;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
-    width: 20%;
+    width: 40%;
     border-radius: 25px;
 }
 
@@ -300,8 +304,8 @@ td {
     background-size: cover;
     background-position: bottom center;
     position: relative;
-    padding: 4rem 3rem 0 3rem;
-    top: 5rem;
+    padding: 64px 48px 0 48px;
+    top: 80px;
 }
 
 #about h1 {
@@ -313,15 +317,15 @@ td {
 
 #about p {
     color: #fff;
-    text-align: center;
-    padding: 0.75rem 4rem 4.25rem 4rem;
+    text-align: justify;
+    padding: 50px;
     line-height: 1.15;
 }
 
 #covid19 {
     height: 200px;
     position: relative;
-    top: 5rem;
+    top: 80px;
 }
 
 #covid19 h1 {
@@ -333,7 +337,7 @@ td {
 #covid19 h3 {
     color: #fff;
     text-align: center;
-    padding-top: 160px;
+    padding-top: 150px;
     padding-bottom: 0;
 }
 
@@ -345,7 +349,7 @@ td {
     text-align: center;
 }
 
-#left-section {
+.left-section {
     background-color: #CF1B1B;
     position: relative;
     float: left;
@@ -353,7 +357,7 @@ td {
     height: 100%;
 }
 
-#middle-section {
+.middle-section {
     background-color: #af1010;
     position: relative;
     display: inline-block;
@@ -361,7 +365,7 @@ td {
     height: 100%;
 }
 
-#right-section {
+.right-section {
     background-color: #CF1B1B;
     position: relative;
     float: right;
@@ -370,17 +374,87 @@ td {
 }
 
 #info {
-    top: 5rem;
+    top: 80px;
     background: url("../img/quarternary-background.png") no-repeat;
     background-size: cover;
     background-position: bottom center;
     position: relative;
-    padding: 4rem 3rem 4rem 3rem;
+    padding: 64px 48px;
 }
 
 #info p {
-    padding: 2rem 12% 2rem 12%;
+    padding: 32px 12% 32px 12%;
     font-size: large;
     text-align: justify;
     line-height: 1.25;
+}
+
+/* Media Queries */
+@media (max-width: 769px) {
+    .desktop {
+        display: none;
+    }
+
+    .topnav li:not(:last-child) {
+        display: none;
+    }
+
+    .topnav li .icon {
+        font-size: 1.5rem;
+        text-align: center;
+        display: block;
+    }
+
+    .topnav .responsive ul {
+        position: relative;
+    }
+
+    .topnav .responsive li .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav .responsive li a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .speech-bubble img {
+        right: 0;
+        width: 100%;
+    }
+
+    .search-box {
+        width: 100%;
+        right: 0;
+    }
+
+    #dataRS-content {
+        text-align: center;
+        padding: 0;
+    }
+
+    .namaRS {
+        text-align: left;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #intro-section {
+        height: 450px;
+    }
+
+    .search-box {
+        top: 425px;
+    }
+
+    .modal-content {
+        justify-content: center;
+    }
 }

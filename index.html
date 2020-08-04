@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" href="resources/img/Logo-Aras.png">
     <script src="resources/scripts/tableFilter.js"></script>
     <script src="resources/scripts/modal.js" defer></script>
+    <script src="resources/scripts/responsive-navbar.js"></script>
     <script src="https://kit.fontawesome.com/050398a7af.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +19,13 @@
         <div class="content">
             <a href="#"><img class="logo" src="resources/img/Logo-Aras.png" alt="Logo"></a>
             <a href="#"><img class="icon" src="resources/img/tulisan-aras.png" alt="Aras"></a>
-            <nav>
+            <nav class="topnav" id="myTopnav">
                 <ul>
                     <li><a href="#covid19">COVID 19</a></li>
-                    <li><a href="">Rumah Sakit</a></li>
+                    <li><a href="#dataRS-content">Rumah Sakit</a></li>
                     <li><a href="#info">Info</a></li>
-                    <li><a class="button" href="#about">Tentang Kami</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -35,7 +37,7 @@
             <div class="speech-bubble">
                 <img src="resources/img/speechbubble.png" alt="">
             </div>
-            <img class="girl" src="resources/img/Character-vector.png" alt="girl">
+            <img class="girl desktop" src="resources/img/Character-vector.png" alt="girl">
             <div class="search-box">
                 <input type="text" placeholder="Cari Rumah Sakit" id="inputRS" onkeyup="cariRS()">
             </div>
@@ -113,8 +115,15 @@
                 <div class="modal-header">
                     <span class="close">&times;</span>
                     <h2>RS Advent</h2>
-                    <p><i class="fas fa-map-marker-alt"></i>Jl. Cihampelas No.161, Cipaganti</p>
-                    <p class="address">Kecamatan Coblong, Kota Bandung, Jawa Barat 40131</p>
+                    <div class="address">
+                        <div class="icon-container">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="address-text">
+                            <p>Jl. Cihampelas No.161, Cipaganti<br>Kecamatan Coblong, Kota Bandung, Jawa Barat 40131</p>
+                        </div>
+                    </div>
+
                     <br>
                     <p><i class="fas fa-phone"></i>(022) 20343869</p>
                     <hr>
@@ -152,7 +161,7 @@
         
         <!-- Covid-19 -->
         <div id="covid19">
-            <div id="left-section">
+            <div class="left-section">
                 <div class="centered">
                     <h1>100.000</h1>
                 </div>
@@ -160,7 +169,7 @@
                     <h3>Kasus Aktif</h3>
                 </div>
             </div>
-            <div id="middle-section">
+            <div class="middle-section">
                 <div class="centered">
                     <h1>1.000</h1>
                 </div>
@@ -168,7 +177,7 @@
                     <h3>Meninggal Dunia</h3>
                 </div>
             </div>
-            <div id="right-section">
+            <div class="right-section">
                 <div class="centered">
                     <h1>30.000</h1>
                 </div>
