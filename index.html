@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="resources/img/Logo-Aras.png">
     <script src="resources/scripts/tableFilter.js"></script>
     <script src="resources/scripts/modal.js" defer></script>
-    <script src="resources/scripts/responsive-navbar.js"></script>
+    <script src="resources/scripts/responsive-navbar.js" defer></script>
     <script src="https://kit.fontawesome.com/050398a7af.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +19,15 @@
         <div class="content">
             <a href="#"><img class="logo" src="resources/img/Logo-Aras.png" alt="Logo"></a>
             <a href="#"><img class="icon" src="resources/img/tulisan-aras.png" alt="Aras"></a>
-            <nav class="topnav" id="myTopnav">
-                <ul>
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <nav class="navbar">
+                <ul class="main-nav" id="js-menu">
                     <li><a href="#covid19">COVID 19</a></li>
                     <li><a href="#dataRS-content">Rumah Sakit</a></li>
                     <li><a href="#info">Info</a></li>
                     <li><a href="#about">Tentang Kami</a></li>
-                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
                 </ul>
             </nav>
         </div>
