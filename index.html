@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="resources/css/reset.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/jquery.dataTables.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="icon" type="image/png" href="resources/img/Logo-Aras.png">
     <script src="resources/scripts/tableFilter.js"></script>
@@ -10,6 +11,9 @@
     <script src="resources/scripts/responsive-navbar.js" defer></script>
     <script src="https://kit.fontawesome.com/050398a7af.js"></script>
     <script src="resources/scripts/counter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+    <script src="resources/scripts/table-pagination.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARAS.ID</title>
@@ -52,57 +56,58 @@
 
             <div class="table-wrapper">
                 <table id="dataRS">
-                    <tr class="table_head">
-                        <th class="namaRS">Nama Rumah Sakit</td>
-                        <th class="kelasVIP">VIP</td>
-                        <th class="kelas1">I</td>
-                        <th class="kelas2">II</td>
-                        <th class="kelas3">III</td>
-                        <th class="covid">Khusus COVID</td>  
-                    </tr>
-                    <tr>
-                        <th colspan="6"><hr></th>
-                    </tr>
-                    <tr class="table_body">
-                        <td class="namaRS"><a class="myBtn" href="#/">Hermina Rancamanik</a></td>
-                        <td class="kelasVIP">5</td>
-                        <td class="kelas1">3</td>
-                        <td class="kelas2">2</td>
-                        <td class="kelas3">1</td>
-                        <td class="covid">4</td>
-                    </tr>
-                    <tr class="table_body">
-                        <td class="namaRS"><a class="myBtn" href="#/">Hermina Pasteur</a></td>
-                        <td class="kelasVIP">5</td>
-                        <td class="kelas1">3</td>
-                        <td class="kelas2">2</td>
-                        <td class="kelas3">1</td>
-                        <td class="covid">4</td>
-                    </tr>
-                    <tr class="table_body">
-                        <td class="namaRS"><a class="myBtn" href="#/">RS Borromeus</a></td>
-                        <td class="kelasVIP">5</td>
-                        <td class="kelas1">3</td>
-                        <td class="kelas2">2</td>
-                        <td class="kelas3">1</td>
-                        <td class="covid">4</td>
-                    </tr>
-                    <tr class="table_body">
-                        <td class="namaRS"><a class="myBtn" href="#/">RS Bungsu</a></td>
-                        <td class="kelasVIP">5</td>
-                        <td class="kelas1">3</td>
-                        <td class="kelas2">2</td>
-                        <td class="kelas3">1</td>
-                        <td class="covid">4</td>
-                    </tr>
-                    <tr class="table_body">
-                        <td class="namaRS"><a class="myBtn" href="#/">RS Advent</a></td>
-                        <td class="kelasVIP">5</td>
-                        <td class="kelas1">3</td>
-                        <td class="kelas2">2</td>
-                        <td class="kelas3">1</td>
-                        <td class="covid">4</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th class="namaRS">Nama Rumah Sakit</td>
+                            <th class="kelasVIP">VIP</td>
+                            <th class="kelas1">I</td>
+                            <th class="kelas2">II</td>
+                            <th class="kelas3">III</td>
+                            <th class="covid">Khusus COVID</td>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="namaRS"><a class="myBtn" href="#/">Hermina Rancamanik</a></td>
+                            <td class="kelasVIP">5</td>
+                            <td class="kelas1">3</td>
+                            <td class="kelas2">2</td>
+                            <td class="kelas3">1</td>
+                            <td class="covid">4</td>
+                        </tr>
+                        <tr>
+                            <td class="namaRS"><a class="myBtn" href="#/">Hermina Pasteur</a></td>
+                            <td class="kelasVIP">5</td>
+                            <td class="kelas1">3</td>
+                            <td class="kelas2">2</td>
+                            <td class="kelas3">1</td>
+                            <td class="covid">4</td>
+                        </tr>
+                        <tr>
+                            <td class="namaRS"><a class="myBtn" href="#/">RS Borromeus</a></td>
+                            <td class="kelasVIP">5</td>
+                            <td class="kelas1">3</td>
+                            <td class="kelas2">2</td>
+                            <td class="kelas3">1</td>
+                            <td class="covid">4</td>
+                        </tr>
+                        <tr>
+                            <td class="namaRS"><a class="myBtn" href="#/">RS Bungsu</a></td>
+                            <td class="kelasVIP">5</td>
+                            <td class="kelas1">3</td>
+                            <td class="kelas2">2</td>
+                            <td class="kelas3">1</td>
+                            <td class="covid">4</td>
+                        </tr>
+                        <tr>
+                            <td class="namaRS"><a class="myBtn" href="#/">RS Advent</a></td>
+                            <td class="kelasVIP">5</td>
+                            <td class="kelas1">3</td>
+                            <td class="kelas2">2</td>
+                            <td class="kelas3">1</td>
+                            <td class="covid">4</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
 
@@ -117,18 +122,18 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <span class="close">&times;</span>
-                    <h2>RS Advent</h2>
+                    <h2>Hermina Rancamanik</h2>
                     <div class="address">
                         <div class="icon-container">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div class="address-text">
-                            <p>Jl. Cihampelas No.161, Cipaganti<br>Kecamatan Coblong, Kota Bandung, Jawa Barat 40131</p>
+                            <p>Jl. A.H. Nasution No.50, Antapani Wetan<br>Kec. Antapani, Kota Bandung, Jawa Barat 40291</p>
                         </div>
                     </div>
 
                     <br>
-                    <p><i class="fas fa-phone"></i>(022) 20343869</p>
+                    <p><i class="fas fa-phone"></i>(022) 87242525</p>
                     <hr>
                 </div>
                 <div class="modal-body">
@@ -155,7 +160,7 @@
                 </div>
                 <div class="modal-footer">
                     <div class="footer-content">
-                        <a href="http://www.rsadventbandung.com/"><h3>Informasi Lebih Lanjut</h3></a>
+                        <a href="http://herminahospitals.com/hermina-arcamanik/"><h3>Informasi Lebih Lanjut</h3></a>
                     </div>
                 </div>
             </div>

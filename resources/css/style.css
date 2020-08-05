@@ -160,7 +160,7 @@ td {
     text-align: center;
 }
 
-.table_head{
+thead{
     font-weight: bold;
     color: #CF1B1B;
 }
