@@ -1,4 +1,4 @@
-<p align="center"><img src="resources/img/Logo-Aras.png" width="200">
+<p align="center"><img src="https://ibb.co/kM22pSm" width="200">
 
 # Aras.ID
 
