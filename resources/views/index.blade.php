@@ -67,46 +67,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td class="namaRS"><a class="myBtn" href="#/">Hermina Rancamanik</a></td>
-                            <td class="kelasVIP">5</td>
-                            <td class="kelas1">3</td>
-                            <td class="kelas2">2</td>
-                            <td class="kelas3">1</td>
-                            <td class="covid">4</td>
-                        </tr>
-                        <tr>
-                            <td class="namaRS"><a class="myBtn" href="#/">Hermina Pasteur</a></td>
-                            <td class="kelasVIP">5</td>
-                            <td class="kelas1">3</td>
-                            <td class="kelas2">2</td>
-                            <td class="kelas3">1</td>
-                            <td class="covid">4</td>
-                        </tr>
-                        <tr>
-                            <td class="namaRS"><a class="myBtn" href="#/">RS Borromeus</a></td>
-                            <td class="kelasVIP">5</td>
-                            <td class="kelas1">3</td>
-                            <td class="kelas2">2</td>
-                            <td class="kelas3">1</td>
-                            <td class="covid">4</td>
-                        </tr>
-                        <tr>
-                            <td class="namaRS"><a class="myBtn" href="#/">RS Bungsu</a></td>
-                            <td class="kelasVIP">5</td>
-                            <td class="kelas1">3</td>
-                            <td class="kelas2">2</td>
-                            <td class="kelas3">1</td>
-                            <td class="covid">4</td>
-                        </tr>
-                        <tr>
-                            <td class="namaRS"><a class="myBtn" href="#/">RS Advent</a></td>
-                            <td class="kelasVIP">5</td>
-                            <td class="kelas1">3</td>
-                            <td class="kelas2">2</td>
-                            <td class="kelas3">1</td>
-                            <td class="covid">4</td>
-                        </tr>
+                        @foreach($hospitals as $hospital)
+                            <tr>
+                                <td class="namaRS"><a class="myBtn" href="#/">{{ $hospital->rs }}</a></td>
+                                <td class="kelasVIP">{{ $hospital->kelas_vip }}</td>
+                                <td class="kelas1">{{ $hospital->kelas_1 }}</td>
+                                <td class="kelas2">{{ $hospital->kelas_2 }}</td>
+                                <td class="kelas3">{{ $hospital->kelas_3 }}</td>
+                                <td class="covid">{{ $hospital->kelas_covid }}</td>
+                            </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>
@@ -115,57 +85,59 @@
             <h3>Update : 29 Juli 2020</h3>
         </div>
 
-        <!-- Modal -->
-        <div class= "myModal modal">
+        @foreach($hospitals as $hospital)
+            <!-- Modal -->
+            <div class= "myModal modal">
 
-            <!-- Modal content -->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close">&times;</span>
-                    <h2>Hermina Rancamanik</h2>
-                    <div class="address">
-                        <div class="icon-container">
-                            <i class="fas fa-map-marker-alt"></i>
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>{{ $hospital->rs }}</h2>
+                        <div class="address">
+                            <div class="icon-container">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="address-text">
+                                <p>{{ $hospital->alamat }}<br>{{ $hospital->daerah }}</p>
+                            </div>
                         </div>
-                        <div class="address-text">
-                            <p>Jl. A.H. Nasution No.50, Antapani Wetan<br>Kec. Antapani, Kota Bandung, Jawa Barat 40291</p>
-                        </div>
-                    </div>
 
-                    <br>
-                    <p><i class="fas fa-phone"></i>(022) 87242525</p>
-                    <hr>
+                        <br>
+                        <p><i class="fas fa-phone"></i>{{ $hospital->telepon }}</p>
+                        <hr>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-box">
+                            <h4>VIP</h4>
+                            <h1>{{ $hospital->kelas_vip }}</h1>
+                        </div>
+                        <div class="content-box">
+                            <h4>Kelas 1</h4>
+                            <h1>{{ $hospital->kelas_1 }}</h1>
+                        </div>
+                        <div class="content-box">
+                            <h4>Kelas 2</h4>
+                            <h1>{{ $hospital->kelas_2 }}</h1>
+                        </div>
+                        <div class="content-box">
+                            <h4>Kelas 3</h4>
+                            <h1>{{ $hospital->kelas_3 }}</h1>
+                        </div>
+                        <div class="content-box">
+                            <h4>Khusus COVID-19</h4>
+                            <h1>{{ $hospital->kelas_covid }}</h1>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="footer-content">
+                            <a href="http://herminahospitals.com/hermina-arcamanik/"><h3>Informasi Lebih Lanjut</h3></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="content-box">
-                        <h4>VIP</h4>
-                        <h1>5</h1>
-                    </div>
-                    <div class="content-box">
-                        <h4>Kelas 1</h4>
-                        <h1>3</h1>
-                    </div>
-                    <div class="content-box">
-                        <h4>Kelas 2</h4>
-                        <h1>2</h1>
-                    </div>
-                    <div class="content-box">
-                        <h4>Kelas 3</h4>
-                        <h1>1</h1>
-                    </div>
-                    <div class="content-box">
-                        <h4>Khusus COVID-19</h4>
-                        <h1>4</h1>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <div class="footer-content">
-                        <a href="http://herminahospitals.com/hermina-arcamanik/"><h3>Informasi Lebih Lanjut</h3></a>
-                    </div>
-                </div>
+
             </div>
-
-        </div>
+        @endforeach
         
         <!-- Covid-19 -->
         <div id="covid19">

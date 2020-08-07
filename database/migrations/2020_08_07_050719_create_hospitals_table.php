@@ -18,7 +18,8 @@ class CreateHospitalsTable extends Migration
             $table->string('rs');
             $table->string('alamat');
             $table->string('daerah');
-            $table->bigInteger('ruang_vip');
+            $table->string('telepon');
+            $table->bigInteger('kelas_vip');
             $table->bigInteger('kelas_1');
             $table->bigInteger('kelas_2');
             $table->bigInteger('kelas_3');

@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Hospital;
 
 class PageController extends Controller
 {
     public function index()
     {
-        return view('index');
+        $hospitals = Hospital::all();
+        return view('index',compact('hospitals'));
     }
 }
