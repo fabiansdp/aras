@@ -131,7 +131,7 @@
                     </div>
                     <div class="modal-footer">
                         <div class="footer-content">
-                            <a href="http://herminahospitals.com/hermina-arcamanik/"><h3>Informasi Lebih Lanjut</h3></a>
+                            <a href="{{ $hospital->website }}"><h3>Informasi Lebih Lanjut</h3></a>
                         </div>
                     </div>
                 </div>

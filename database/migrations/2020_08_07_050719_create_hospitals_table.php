@@ -24,6 +24,7 @@ class CreateHospitalsTable extends Migration
             $table->bigInteger('kelas_2');
             $table->bigInteger('kelas_3');
             $table->bigInteger('kelas_covid');
+            $table->string('website');
             $table->timestamps();
         });
     }
