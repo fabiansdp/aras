@@ -299,40 +299,7 @@ thead{
     padding: 20px 0;
 }
 
-#about {
-    background: url("../img/tertiary-background.png") no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    position: relative;
-    padding: 64px 48px 0 48px;
-    top: 80px;
-}
-
-#about h1 {
-    font-size: xx-large;
-    color: #fff;
-    font-weight: 900;
-    text-align: center;
-}
-
-#about p {
-    color: #fff;
-    text-align: justify;
-    padding: 50px;
-    line-height: 1.15;
-}
-#faq {
-    font-size: xx-large;
-    color: #CF1B1B;
-    font-weight: 900;
-    text-align: center;
-}
-
-#tfaq {
-    font-size: large;
-    color: #CF1B1B;
-    font-weight: 900;
-}
+/* Bagian Counter Covid-19 */
 #covid19 {
     height: 200px;
     position: relative;
@@ -384,6 +351,7 @@ thead{
     height: 100%;
 }
 
+/* Bagian Info */
 #info {
     top: 80px;
     background: url("../img/quarternary-background.png") no-repeat;
@@ -398,6 +366,44 @@ thead{
     font-size: large;
     text-align: justify;
     line-height: 1.25;
+}
+
+.faq h1 {
+    font-size: xx-large;
+    color: #CF1B1B;
+    font-weight: 900;
+    text-align: center;
+}
+
+.faq h4 {
+    text-align: center;
+    font-size: large;
+    color: #CF1B1B;
+    font-weight: 900;
+}
+
+/* Bagian Tentang Kami */
+#about {
+    background: url("../img/tertiary-background.png") no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+    padding: 64px 48px 0 48px;
+    top: 80px;
+}
+
+#about h1 {
+    font-size: xx-large;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+}
+
+#about p {
+    color: #fff;
+    text-align: justify;
+    padding: 50px;
+    line-height: 1.15;
 }
 
 /* Media Queries */

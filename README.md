@@ -9,7 +9,7 @@
 - Aurelius Marcel Candra (16519243), <strong>Readme</strong><br>
 - Bonaventura Bagas Sukarno (16519200), <strong>Copywriter</strong><br>
 - Fadli Naufal Rahman (16519105), <strong>Front-End</strong><br>
-- Fabian Savero Diaz Pranoto (16519201), <strong>Front-End</strong><br>
+- Fabian Savero Diaz Pranoto (16519201), <strong>Full Stack</strong><br>
 - Faris Hasim Syauqi (16519161), <strong>Data</strong><br>
 - Jeane Mikha Erwansyah (16519096), <strong>Front-End</strong><br>
 - Justin Dermawan Ikhsan (16519192), <strong>UI/UX</strong><br>
