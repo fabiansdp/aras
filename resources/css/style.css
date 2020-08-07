@@ -321,7 +321,18 @@ thead{
     padding: 50px;
     line-height: 1.15;
 }
+#faq {
+    font-size: xx-large;
+    color: #CF1B1B;
+    font-weight: 900;
+    text-align: center;
+}
 
+#tfaq {
+    font-size: large;
+    color: #CF1B1B;
+    font-weight: 900;
+}
 #covid19 {
     height: 200px;
     position: relative;
