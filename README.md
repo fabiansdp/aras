@@ -1,61 +1,34 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><img src="https://i.ibb.co/YbBB6L0/Logo-Aras.png" alt="Logo-Aras" border="0" width="200">
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+# Aras.ID
 
-## About Laravel
+## Nomor Kelompok dan Pembagian Tugas
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Kelompok 10 :
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Aurelius Marcel Candra (16519243), <strong>Readme</strong><br>
+- Bonaventura Bagas Sukarno (16519200), <strong>Copywriter</strong><br>
+- Fadli Naufal Rahman (16519105), <strong>Front-End</strong><br>
+- Fabian Savero Diaz Pranoto (16519201), <strong>Full Stack</strong><br>
+- Faris Hasim Syauqi (16519161), <strong>Data</strong><br>
+- Jeane Mikha Erwansyah (16519096), <strong>Front-End</strong><br>
+- Justin Dermawan Ikhsan (16519192), <strong>UI/UX</strong><br>
+- Kumaras Gideon Sitorus (16519440), <strong>Data</strong><br>
+- M. Hilal Alhamdy (16519522), <strong>Copywriter</strong><br>
+- M. Rizal Muhaimin (16519182), <strong>Data</strong><br>
+- Regina Dionne Aurelia (16519162), <strong>Copywriter</strong><br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Panduan Penggunaan Aras.ID
 
-## Learning Laravel
+Website Aras.ID merupakan *single-page* website yang terdiri dari beberapa bagian yang dapat dilihat pada bagian *Navigation Bar*.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Tombol "COVID 19" akan membawa pengguna ke bagian "Covid-19". Di bagian COVID-19, ditampilkan angka yang menunjukkan jumlah orang yang terinfeksi, jumlah kematian per tanggal akses halaman, dan jumlah pasien sembuh.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Tombol "Rumah Sakit" akan membawa pengguna ke bagian "Ruangan Tersedia". Pada bagian Ruangan Tersedia disajikan sebuah tabel yang berisi data rumah sakit dan ketersediaan jumlah ruangan berbagai tipe, seperti kelas VIP, I, II, III, dan khusus COVID. Untuk saat ini, data yang dapat diberikan terbatas pada lokasi Kota Bandung.
 
-## Laravel Sponsors
+- Tombol "Info" akan membawa pengguna ke bagain Informasi yang menyajikan beberapa informasi tambahan bermanfaat untuk diketahui oleh pengguna, yaitu cara mem-*booking* ruangan di sebuah rumah sakit dan cara mencegah penularan COVID-19. Fitur yang ingin dikembangkan ke depannya adalah pengguna dapat melakukan booking ruangan melalui website Aras.ID.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- Tombol "Tentang Kami" akan membawa pengguna ke bagian "Tentang Kami" di paling bawah halaman website yang menyajikan informasi mengenai website Aras.ID.
 
-### Premium Partners
+- Ada pula fitur *search bar* yang terletak di bagian utama halaman. Fitur ini ditujukan bagi pengguna yang ingin mencari rumah sakit terdekat dan/atau ketersediaan ruangan. Sama seperti data pada tabel, hasil pencarian yang ditampilkan masih terbatas pada rumah sakit yang berada di Kota Bandung.</p>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
