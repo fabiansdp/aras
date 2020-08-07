@@ -1,4 +1,4 @@
-<p align="center"><img src="resources/img/Logo-Aras.png" width="200"></p>
+<p align="center"><img src="resources/img/Logo-Aras.png" width="200">
 
 # Aras.ID
 
@@ -19,15 +19,16 @@
 - Regina Dionne Aurelia (16519162), <strong>Copywriter</strong><br>
 
 ## Panduan Penggunaan Aras.ID
+
 Website Aras.ID merupakan *single-page* website yang terdiri dari beberapa bagian yang dapat dilihat pada bagian *Navigation Bar*.
 
-- <p align="justify">Tombol "COVID 19" akan membawa pengguna ke bagian "Covid-19". Di bagian COVID-19, ditampilkan angka yang menunjukkan jumlah orang yang terinfeksi, jumlah kematian per tanggal akses halaman, dan jumlah pasien sembuh.</p>
+- Tombol "COVID 19" akan membawa pengguna ke bagian "Covid-19". Di bagian COVID-19, ditampilkan angka yang menunjukkan jumlah orang yang terinfeksi, jumlah kematian per tanggal akses halaman, dan jumlah pasien sembuh.
 
-- <p align="justify">Tombol "Rumah Sakit" akan membawa pengguna ke bagian "Ruangan Tersedia". Pada bagian Ruangan Tersedia disajikan sebuah tabel yang berisi data rumah sakit dan ketersediaan jumlah ruangan berbagai tipe, seperti kelas VIP, I, II, III, dan khusus COVID. Untuk saat ini, data yang dapat diberikan terbatas pada lokasi Kota Bandung.</p>
+- Tombol "Rumah Sakit" akan membawa pengguna ke bagian "Ruangan Tersedia". Pada bagian Ruangan Tersedia disajikan sebuah tabel yang berisi data rumah sakit dan ketersediaan jumlah ruangan berbagai tipe, seperti kelas VIP, I, II, III, dan khusus COVID. Untuk saat ini, data yang dapat diberikan terbatas pada lokasi Kota Bandung.
 
-- <p align="justify">Tombol "Info" akan membawa pengguna ke bagain Informasi yang menyajikan beberapa informasi tambahan bermanfaat untuk diketahui oleh pengguna, yaitu cara mem-*booking* ruangan di sebuah rumah sakit dan cara mencegah penularan COVID-19.</p>
+- Tombol "Info" akan membawa pengguna ke bagain Informasi yang menyajikan beberapa informasi tambahan bermanfaat untuk diketahui oleh pengguna, yaitu cara mem-*booking* ruangan di sebuah rumah sakit dan cara mencegah penularan COVID-19. Fitur yang ingin dikembangkan ke depannya adalah pengguna dapat melakukan booking ruangan melalui website Aras.ID.
 
-- <p align="justify">Tombol "Tentang Kami" akan membawa pengguna ke bagian "Tentang Kami" di paling bawah halaman website yang menyajikan informasi mengenai website Aras.ID.</p>
+- Tombol "Tentang Kami" akan membawa pengguna ke bagian "Tentang Kami" di paling bawah halaman website yang menyajikan informasi mengenai website Aras.ID.
 
-- <p align="justify">Fitur lain masih perlu dikembangkan ke depannya adalah menu *search bar* yang terletak di bagian atas halaman. Fitur ini ditujukan bagi pengguna yang ingin mencari rumah sakit terdekat dan/atau ketersediaan ruangan.</p>
+- Ada pula fitur *search bar* yang terletak di bagian utama halaman. Fitur ini ditujukan bagi pengguna yang ingin mencari rumah sakit terdekat dan/atau ketersediaan ruangan. Sama seperti data pada tabel, hasil pencarian yang ditampilkan masih terbatas pada rumah sakit yang berada di Kota Bandung.</p>
 
