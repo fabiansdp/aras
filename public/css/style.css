@@ -361,11 +361,16 @@ thead{
     padding: 64px 48px;
 }
 
-#info p {
-    padding: 32px 12% 32px 12%;
+.description p {
+    padding: 0 10%;
     font-size: large;
     text-align: justify;
     line-height: 1.25;
+}
+
+.description p span {
+    color: #CF1B1B;
+    font-weight: 700;
 }
 
 .faq h1 {
@@ -373,6 +378,7 @@ thead{
     color: #CF1B1B;
     font-weight: 900;
     text-align: center;
+    padding: 40px 0;
 }
 
 .faq h4 {
@@ -380,8 +386,29 @@ thead{
     font-size: large;
     color: #CF1B1B;
     font-weight: 900;
+    padding: 30px 0;
 }
 
+.question {
+    padding: 0 10%;
+}
+
+.question p{
+    text-align: justify;
+    font-size: large;
+    line-height: 1.25;
+}
+
+.question ol {
+    font-size: large;
+    line-height: 1.25;
+    text-align: justify;
+    list-style-type: decimal;
+}
+
+.question ol li {
+    padding: 10px 0;
+}
 /* Bagian Tentang Kami */
 #about {
     background: url("../img/tertiary-background.png") no-repeat;
@@ -459,6 +486,10 @@ thead{
         padding: 0;
     }
 
+    #dataRS-content h2 {
+        margin-top: 50px;
+    }
+
     .namaRS {
         text-align: left;
     }
@@ -477,7 +508,25 @@ thead{
         top: 425px;
     }
 
+    .speech-bubble img {
+        top: 1%;
+    }
+
     .modal-content {
         justify-content: center;
+    }
+
+    #about {
+        padding: 64px 0 0 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #intro-section {
+        height: 350px;
+    }
+
+    .search-box {
+        top: 325px;
     }
 }

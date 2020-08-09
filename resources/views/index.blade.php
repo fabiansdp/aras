@@ -169,47 +169,58 @@
         
         <!-- Info -->
         <div id="info">
-            <!-- covid -->
-            <div>
-                <p>COVID-19 atau Corona Virus Disease 2019 adalah penyakit menular yang disebabkan oleh virus golongan coronavirus, yaitu SARS-CoV-2. Virus ini secara umum menginfeksi sistem pernapasan, mulai dari gejala ringan seperti flu dan batuk, hingga infeksi berat, seperti pneumonia. 
-                Kasus pertama COVID-19 ditemukan di Wuhan, Tiongkok, sekitar akhir 2019. Wabah virus ini menyebar luas secara masif dan ditetapkan sebagai pandemi oleh WHO pada Maret 2020. Kasus pertama di Indonesia diumumkan pada 2 Maret 2020, dan saat ini telah menyebar ke 34 provinsi di Indonesia.
-                COVID-19 diketahui menular dari manusia ke manusia melalui droplet (percikan air liur). Namun, pada Juli 2020, WHO mengumumkan bahwa COVID-19 dapat menyebar secara airborne (melalui udara). Gejala infeksi COVID-19 dapat menyerupai seperti flu, yaitu batuk, pilek, dan demam. Gejala COVID-19 ini dapat muncul dalam waktu 2 hari sampai 2 minggu setelah tertular. Namun, pada beberapa kasus, ditemukan pasien yang dinyatakan positif COVID-19, tetapi tidak memiliki gejala sama sekali.Oleh karena itu, penting bagi kita untuk selalu menaati protokol kesehatan yang telah ditetapkan seperti, rutin mencuci tangan, menghindari kerumunan dan menjaga jarak, serta menggunakan masker.</p>
+            <div class="description">
+                <p><span>COVID-19</span> atau Corona Virus Disease 2019 adalah penyakit menular yang disebabkan oleh virus golongan coronavirus, yaitu SARS-CoV-2. Virus ini secara umum menginfeksi sistem pernapasan, mulai dari gejala ringan seperti flu dan batuk, hingga infeksi berat, seperti pneumonia. 
+                <br><br>Kasus pertama COVID-19 ditemukan di Wuhan, Tiongkok, sekitar akhir 2019. Wabah virus ini menyebar luas secara masif dan ditetapkan sebagai pandemi oleh WHO pada Maret 2020. Kasus pertama di Indonesia diumumkan pada 2 Maret 2020, dan saat ini telah menyebar ke 34 provinsi di Indonesia.
+                <br><br>COVID-19 diketahui menular dari manusia ke manusia melalui droplet (percikan air liur). Namun, pada Juli 2020, WHO mengumumkan bahwa COVID-19 dapat menyebar secara airborne (melalui udara). Gejala infeksi COVID-19 dapat menyerupai seperti flu, yaitu batuk, pilek, dan demam. Gejala COVID-19 ini dapat muncul dalam waktu 2 hari sampai 2 minggu setelah tertular. Namun, pada beberapa kasus, ditemukan pasien yang dinyatakan positif COVID-19, tetapi tidak memiliki gejala sama sekali.
+                <br><br>Oleh karena itu, penting bagi kita untuk selalu menaati protokol kesehatan yang telah ditetapkan seperti, rutin mencuci tangan, menghindari kerumunan dan menjaga jarak, serta menggunakan masker.</p>
             </div>
             <!-- info -->
             <div class="faq">
-                <p>
-                    <h1> FAQ </h1>
-                <p>
+                <h1> FAQ </h1>
 
-                <h4>BAGAIMANA PROSES PENYEBARAN COVID-19?</h4>
-                <p>Virus ini menyebar antar manusia ke manusia melalui tetesan cairan dari hidung dan mulut saat orang yang terinfeksiCOVID-19 sedang batuk atau membuang nafas.</p>
+                <div class="question">
+                    <h4>BAGAIMANA PROSES PENYEBARAN COVID-19?</h4>
+                    <p>Virus ini menyebar antar manusia ke manusia melalui tetesan cairan dari hidung dan mulut saat orang yang terinfeksi COVID-19 sedang batuk atau membuang nafas.</p>
+                </div>
 
-                <h4>APA SAJA GEJALA YANG DIALAMI PASIEN COVID-19?</h4>
-                <p>Gejala umum COVID-19 mirip seperti pilek dan flu biasa, sehingga membuat deteksi penyakit ini menjadi lebih sulit. Biasanya, pasien mengalami demam, batuk, dan napas pendek.</p>
+                <div class="question">
+                    <h4>APA SAJA GEJALA YANG DIALAMI PASIEN COVID-19?</h4>
+                    <p>Gejala umum COVID-19 mirip seperti pilek dan flu biasa, sehingga membuat deteksi penyakit ini menjadi lebih sulit. Biasanya, pasien mengalami demam, batuk, dan napas pendek.</p>
+                </div>
 
-                <h4>APA YANG BISA SAYA LAKUKAN UNTUK MELINDUNGI DIRI SAYA DARI COVID-19? </h4>
-                <p>1. Perbanyak cuci tangan menggunakan air dan sabun paling tidak selama 20 detik</br>
-                <br>2. Hindari menyentuh wajah, terutama mata, hidung, dan mulut</br>
-                <br>3. Tinggal di rumah jika memungkinkan</br>
-                <br>4. Hindari kontak dengan orang sakit</br>
-                <br>5. Jauhi keramaian</br>
-                <br>6. Memakai alat perlindungan, seperti masker, faceshield</br>
-                </p>
+                <div class="question">
+                    <h4>APA YANG BISA SAYA LAKUKAN UNTUK MELINDUNGI DIRI SAYA DARI COVID-19? </h4>
+                    <ol type="1">
+                        <li>Perbanyak cuci tangan menggunakan air dan sabun paling tidak selama 20 detik.</li>
+                        <li>Hindari menyentuh wajah, terutama mata, hidung, dan mulut.</li>
+                        <li>Tinggal di rumah jika memungkinkan.</li>
+                        <li>Hindari kontak dengan orang sakit.</li>
+                        <li>Jauhi keramaian.</li>
+                        <li>Memakai alat perlindungan, seperti masker, faceshield.</li>
+                    </ol>
+                </div>
                 
 
-                <h4> BISAKAH PASIEN COVID-19 SEMBUH?</h4>
-                <p>Belum ada pengobatan anti-virus untuk menyembuhkan mereka yang terjangkit COVID-19.
-                Para pasien perlu mendapatkan perawatan medis ekstra untuk meringankan dan menghilangkan gejalanya.
-                </p>
+                <div class="question">
+                    <h4> BISAKAH PASIEN COVID-19 SEMBUH?</h4>
+                    <p>Belum ada pengobatan anti-virus untuk menyembuhkan mereka yang terjangkit COVID-19.
+                    Para pasien perlu mendapatkan perawatan medis ekstra untuk meringankan dan menghilangkan gejalanya.
+                    </p>
+                </div>
 
-                <h4> SIAPA YANG BERISIKO TERINFEKSI?</h4>
-                <p>Orang-orang yang hidup di dan melakukan perjalanan ke wilayah-wilayah di mana virus ini telah positif menyebar berpotensi terjangkit COVID-19.
-                Pekerja medis yang merawat pasien positif COVID-19 adalah orang-orang yang paling berpotensi terinfeksi virus ini, sehingga mereka membutuhkan prosedur pencegahan secara ekstra.
-                </p>
+                <div class="question">
+                    <h4> SIAPA YANG BERISIKO TERINFEKSI?</h4>
+                    <p>Orang-orang yang hidup di dan melakukan perjalanan ke wilayah-wilayah di mana virus ini telah positif menyebar berpotensi terjangkit COVID-19.
+                    Pekerja medis yang merawat pasien positif COVID-19 adalah orang-orang yang paling berpotensi terinfeksi virus ini, sehingga mereka membutuhkan prosedur pencegahan secara ekstra.
+                    </p>
+                </div>
 
-                <h4> BAGAIMANA STATUS PENYEBARAN COVID DI INDONESIA?</h4>
-                <p>Indonesia telah mencatat ribuan kasus positif COVID-19. Untuk perkembangan terbaru, silakan kunjungi situs www.covid19.go.id dan www.kemkes.go.id.
-                </p>
+                <div class="question">
+                    <h4> BAGAIMANA STATUS PENYEBARAN COVID DI INDONESIA?</h4>
+                    <p>Indonesia telah mencatat ribuan kasus positif COVID-19. Untuk perkembangan terbaru, silakan kunjungi situs www.covid19.go.id dan www.kemkes.go.id.
+                    </p>
+                </div>
             </div>
         </div>
         <!-- Tentang Kami -->
@@ -218,7 +229,7 @@
                 <h1>Tentang Kami</h1>
                 <p>Aras.id merupakan platform penyedia informasi Covid-19 yang didirikan pada tahun 2020 oleh mahasiswa ITB sebagai proyek Milestone SPARTA 2020. Web kami fokus dalam memberikan informasi terkait dengan ketersediaan kamar pada rumah sakit di Indonesia.
                 Hal ini dilatarbelakangi oleh banyaknya orang yang membuang-buang waktu untuk pergi dari satu rumah sakit ke rumah sakit lainnya dikarenakan penuhnya kapasitas rumah sakit tersebut. Oleh karena itu, dengan adanya Aras.id, orang-orang dapat terlebih dahulu mengecek kamar kosong pada daerah sekitar mereka tanpa perlu mendatangi rumah sakitnya terlebih dahulu. 
-                Aras.id memberikan informasi terperinci tentang kategori kamar yang tersedia sehingga pengguna dapat mencari rumah sakit yang sesuai keinginannya. Selain itu, data pada Aras.id di-update secara real time sehingga pengguna tidak perlu khawatir jika data tidak sesuai dengan kondisi sebenarnya di rumah sakit.</p>
+                <br><br>Aras.id memberikan informasi terperinci tentang kategori kamar yang tersedia sehingga pengguna dapat mencari rumah sakit yang sesuai keinginannya. Selain itu, data pada Aras.id di-update secara real time sehingga pengguna tidak perlu khawatir jika data tidak sesuai dengan kondisi sebenarnya di rumah sakit.</p>
             </div>
         </div>
     </div>
